@@ -17,30 +17,20 @@
       "md5": ""
     },
     {
-      "name": "ArchiveOfOurOwn",
-      "fileName": "ArchiveOfOurOwn",
+      "name": "ReadWN",
+      "fileName": "ReadWN",
       "imageURL": "",
-      "id": 1308639966,
-      "lang": "all",
-      "ver": "1.0.5",
+      "id": 139964,
+      "lang": "en",
+      "ver": "1.1.5",
       "libVer": "1.0.0",
       "md5": ""
     },
     {
-      "name": "Hentai Foundry",
-      "fileName": "HentaiFoundry",
+      "name": "FansMTL",
+      "fileName": "FansMTL",
       "imageURL": "",
-      "id": 1308639967,
-      "lang": "all",
-      "ver": "1.0.0",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
-    {
-      "name": "Wuxiap",
-      "fileName": "Wuxiap",
-      "imageURL": "",
-      "id": 1308639968,
+      "id": 130967,
       "lang": "en",
       "ver": "1.0.0",
       "libVer": "1.0.0",
