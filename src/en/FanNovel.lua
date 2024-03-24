@@ -1,4 +1,4 @@
--- {"id":1308639962,"ver":"1.0.0","libVer":"1.0.0","author":"Jobobby04","dep":["ReadWN>=1.0.11"]}
+-- {"id":1308639961,"ver":"1.0.0","libVer":"1.0.0","author":"Jobobby04","dep":["ReadWN>=1.0.11"]}
 
 local GENRES = {
 	"All",
@@ -58,9 +58,9 @@ local GENRES = {
 	"Virtual Reality"
 }
 
-return Require("FanNovel")("https://www.fannovels.com", {
-	id = 1308639962,
-	name = "FanNovel",
+return Require("FanNovelC")("https://www.fannovels.com", {
+	id = 1308639961,
+	name = "FanNovelC",
 	imageURL = "https://raw.githubusercontent.com/Adrianjack/Shosetsu-extensions/main/Icons/Picsart_24-03-17_11-26-04-475.png",
 	shrinkURLNovel = "^.-fannovels%.com",
 	hasCloudFlare = true,
@@ -68,12 +68,12 @@ return Require("FanNovel")("https://www.fannovels.com", {
 	genres = GENRES,
 
 	listingsMap = {
-	
-		{
-			name = "New to Web Novels",
-			increments = true,
+	       {
+			name = "Recently Added Chapters",
+			increments = false,
+			selector = "#latest-updates .novel-list.grid.col .novel-item a",
 			url = function(data)
-				return "https://www.fannovels.com/list/all/all-newstime-" .. (data[PAGE] - 1) .. ".html"
+				return "https://www.fannovels.com"
 			end
 		}
 	},
