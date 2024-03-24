@@ -69,12 +69,12 @@ return Require("FanNovelC")("https://www.fannovels.com", {
 
 	listingsMap = {
 	       {
-			name = "Recently Added Chapters",
-			increments = false,
-			selector = "#latest-updates .novel-list.grid.col .novel-item a",
-			url = function(data)
-				return "https://www.fannovels.com"
-			end
-		}
+            name = "Recently Added Chapters",
+            increments = false,
+            selector = "#latest-updates .novel-list.grid.col .novel-item a",
+            url = function(data)
+                return "https://www.fannovel.com"
+            end
+        }
 	},
 })
