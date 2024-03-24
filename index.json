@@ -1,26 +1,16 @@
 {
   "libraries": [
     {
-      "name": "FanNovel",
+      "name": "FanNovelC",
       "ver": "1.0.11"
     }
   ],
   "scripts": [
-     {
-      "name": "FanNovelChap",
-      "fileName": "FanNovelChap",
-      "imageURL": "",
-      "id": 1308639966,
-      "lang": "all",
-      "ver": "1.0.0",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
     {
-      "name": "FanNovel",
-      "fileName": "FanNovel",
+      "name": "FanNovelC",
+      "fileName": "FanNovelC",
       "imageURL": "https://raw.githubusercontent.com/Adrianjack/Shosetsu-extensions/main/Icons/Untitled58_20240323111948.png",
-      "id": 1308639962,
+      "id": 1308639961,
       "lang": "en",
       "ver": "1.0.0",
       "libVer": "1.0.0",
@@ -30,7 +20,7 @@
       "name": "ReadWN",
       "fileName": "ReadWN",
       "imageURL": "https://raw.githubusercontent.com/Adrianjack/Shosetsu-extensions/main/Icons/Untitled58_20240323111955.png",
-      "id": 1308639964,
+      "id": 139964,
       "lang": "en",
       "ver": "1.1.5",
       "libVer": "1.0.0",
@@ -40,7 +30,7 @@
       "name": "FansMTL",
       "fileName": "FansMTL",
       "imageURL": "https://raw.githubusercontent.com/Adrianjack/Shosetsu-extensions/main/Icons/Untitled58_20240323111555.png",
-      "id": 1308639967,
+      "id": 130967,
       "lang": "en",
       "ver": "1.0.0",
       "libVer": "1.0.0",
